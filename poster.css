@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+}
+.container{
+    height: 100vh;
+    width: 98%;
+    background-image: url("https://www.w3schools.com/w3images/architect.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding: 1.5em;
+}
+.container2{
+    width: 98%;
+    height: 70vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    padding: 1em;
+}
+img{
+    width: 100%;
+}
+h3{
+    padding: 1.7em;
+}
+label{
+    position: relative;
+    top: 14%;   
+    padding: 1em 2.5em;
+    background: black;
+    color: white;
+}
+h3{
+    margin-top: 2em;
+    font-size: 20px;
+}
+p{
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: justify;
+}
+.container3{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    padding: 2em;
+}
+.box5{
+    label1{
+        font-size:xx-large
+    }
+    .vijj{
+        padding: 0;
+        margin-top: 1em;
+    }
+    button{
+        width: 100%;
+        height: 3em;
+        margin-top: 1em;
+    }
+}
+h5{
+    font-size:x-large;
+    margin-left:1em;
+    margin-top: 1em;
+}
+.vvv{
+    padding: 1em;
+}
+input{
+    display: flex;
+    width: 98%;
+    margin: 1em;
+    padding: 1em;
+}
